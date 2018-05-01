@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan departmant">
+<listeners>
+<listener class-name=""/>
+
+
+</listeners>
+
+
+
+<parameter name="URL" value="www.facebook.com"/>
+  <test  name="personal loan">
+    <classes>
+      <class name="frame1.day1">
+      
+      </class>
+      <class name="frame1.day2"/>
+      <class name="frame1.day3"/>
+      <class name="frame1.day4">
+       <methods>
+       <exclude name="rockets.*"/>
+       
+      </methods>
+      
+      
+      
+      </class>
+    
+    </classes>
+  </test> 
+  
+  
+
+</suite> 
